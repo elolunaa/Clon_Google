@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body, html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:before, *:after{
+    box-sizing: inherit;
+}
+
+.botonesprincipales a, .links a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 8px;
+}
+
+.botonesprincipales a:hover, .links a:hover{
+    text-decoration: underline;
+}
+
+body{
+    overflow: hidden; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #70757a;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+}
+
+
+
+.menu_principal{
+    display: flex;
+    align-items: center;
+}
+
+.menu_principal:hover, .botonApp:hover{
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 115px;
+    border-radius: 10px;
+    background-color: #2386FC;
+    border-color: #2386FC;
+    border-style: none;
+    margin: 0 8px;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+.botonApp{
+    border-radius: 999px;
+    border-color: transparent;
+    display: flex;
+    align-self: center;
+    background-color: transparent;
+    margin: 0 8px;
+}
+
+.profile:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.app{
+    height: 40px;
+    width: 40px;
+    border-style: none; 
+    border-radius: 599px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    height: 5.75rem;
+    width: 17rem;
+    /* display: flex;
+    align-self: center; */
+}
+
+.busqueda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(219, 219, 219); 
+    border-radius: 999px;
+    
+    padding: 4px;
+}
+.busqueda input{
+    padding: 8px 16px ;
+    margin-right: 2px;
+    padding-left: 4px;
+    font-size: 18px;
+    width: 100%;
+    border: transparent;
+}
+
+.lupa{
+    height: 20px;
+    width: 20px;
+    padding-left: 8px;
+}
+
+.microfono, .camera{
+    margin-right: 10px;
+}
+
+.lupa:hover, .microfono:hover, .camera:hover{
+    cursor: pointer;
+}
+
+.busqueda:hover{
+    cursor: text;
+}
+
+.botonesBuscador{
+    margin-top: 20px;
+}
+
+.botonesBuscador button{
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    height: 36px;
+}
+
+.botonesBuscador button:hover{
+    cursor: pointer;
+    box-shadow: rgba(165, 165, 165, 0.2) 0px 7px 29px 0px;
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
+footer h5{
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.pais{
+    border-bottom: 2px solid #dadce0;
+    padding: 12px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+.links1{
+    margin-right: 10%;
+}
+
+.links nav{
+    flex-basis: 50%;
+}
+
+@media (max-width: 60rem){
+    .links{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon de Google</title>
+    <link
+        href="/style.css"
+        rel="stylesheet" 
+    />
+    <script src="https://kit.fontawesome.com/3786781dab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- Navegacion -->
+        <!-- Boton puntitos de aplicaciones -->
+        <!-- Boton de iniciar sesion  -->
+        <nav class="menu_principal" aria-label="menu_principal">
+            <div class="botonesprincipales">
+                <a href="https://www.google.com/intl/es/gmail/about/" target="_blank">Gmail</a>
+                <a href="https://www.google.com.mx/imghp?hl=es&ogbl" target="_blank">Imágenes</a>
+            </div>
+            <button class="botonApp" >
+                <img  class="app" src="./assets/icons/Aplicaciones_Google.png" alt="Menu de opciones de aplicaciones de Google"></button>
+            <a class="profile" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com.mx%2F%3Fhl%3Des&ec=GAZAmgQ&hl=es&ifkv=AXo7B7Vs7-zdq2rcSSrdonaw5Maa6pzWLJKqqb4UV3qpTw6LEKdDOztqCOI3BdLTosXz4TnQuAvk_Q&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1224903650%3A1692989107782976" target="_blank">Iniciar sesión</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- logo -->
+        <img class="logo" src="./assets/icons/Google_Logo.png" alt="Logo de Google">
+
+        <!-- input -->
+        <!-- botones de accion  -->
+        <!-- links -->
+        <form class="busqueda" >
+            <label for="search" ><img class="lupa" src="./assets/icons/Lupa.png" alt="lupa"></label>
+            <input id="search" type="search" name="search" />
+
+            <span class="microfono"> <i class="fa-solid fa-microphone"></i></span>
+            <span class="camera"><i class="fa-solid fa-camera"></i></span>
+        </form>
+        <div class="botonesBuscador">
+            <button class="boton1" >Buscar con Google</button>
+                
+            <button class="boton2" >Voy a tener suerte</button>
+        </div>
+       
+    </main>
+
+    <footer>
+        <!-- pais -->
+        <div class="pais"> 
+            <h5>México</h5>     
+        </div>
+
+        <div class="links">
+        <!-- menu 1 -->
+            <div class="links1">
+                <nav aria-label="menu_nosotros">
+                    <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre nosotros</a>
+                    <a href="https://ads.google.com/intl/es_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                    <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a>
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+                </nav>
+            </div>
+
+            <!-- menu 2 -->
+            <div class="links2">
+                <nav aria-label="menu_terminos-condiciones">
+                    <a href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a>
+                    <a href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a>
+                    <a href="">Preferencias</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
